@@ -1,0 +1,96 @@
+.custom-modal {
+  height: 550px !important;
+  width: 600px !important;
+  background-color: rgb(23, 24, 29) !important;
+  /* overflow-y: scroll; */
+  border: 1px solid lightblue !important;
+  position: relative;
+}
+
+.custom-modal-header {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.custom-modal-content {
+  height: 250px !important;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.custom-modal-footer {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.custom-modal-footer button {
+  width: 60%;
+}
+
+.search-tile {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* align-items: center; */
+  width: 100%;
+  cursor: pointer;
+}
+
+.search-tile-image {
+  margin-right: 10px;
+  width: 2rem !important;
+}
+
+.search-tile-content {
+  width: 70%;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden;
+  font-size: 15px;
+  color: white !important;
+  font-weight: bold;
+}
+
+.search-bar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 70%;
+}
+
+.search-bar {
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column !important;
+}
+
+.search-bar-container .ui.search > .results {
+  width: 100% !important;
+  overflow-y: auto;
+  max-height: 350px;
+  background-color: rgb(41, 45, 51);
+  border: 2px solid transparent !important;
+}
+
+.search-bar-container .ui.search > .results .result:hover {
+  background-color: #121212 !important;
+}
+
+.search-bar-container .ui.search > .results > .message .header {
+  color: white !important;
+  text-align: center;
+}

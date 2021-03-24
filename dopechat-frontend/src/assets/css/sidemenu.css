@@ -1,0 +1,149 @@
+.home-sidebar-container {
+  position: absolute;
+  height: 100% !important;
+  width: 100% !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  overflow-y: scroll;
+  background-color: #1a1d21 !important;
+  color: white !important;
+}
+
+.home-sidebar {
+  position: absolute;
+  width: 100% !important;
+  background-color: transparent !important;
+  padding: 0px 0px 20px 0px;
+  margin: 0px !important;
+}
+
+.sidebar-header {
+  font-size: 50px;
+  border-bottom: 2px solid rgb(255, 255, 255) !important;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sidebar-header:hover {
+  background-color: #121212;
+}
+
+.chatlist {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.user-tile-wrapper {
+  color: white !important;
+  cursor: pointer;
+}
+
+.user-tile-wrapper.active {
+  color: white !important;
+  background-color: rgba(94, 32, 91, 0.514);
+}
+
+.user-tile-wrapper.active:hover {
+  color: white !important;
+  background-color: rgba(94, 32, 91, 0.514);
+}
+
+.user-tile-wrapper:hover {
+  background-color: #121212;
+}
+
+.user-tile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px !important;
+}
+
+.user-tile-avatar {
+  float: left;
+  width: 10%;
+  margin-right: 13px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.user-tile-avatar img {
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 2px;
+}
+
+.user-tile-avatar div {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+}
+
+.online-circle {
+  height: 8px;
+  width: 8px;
+  background-color: rgb(51, 207, 142);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.user-tile-content {
+  width: 70%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 14px;
+  color: rgb(210, 210, 210);
+}
+
+.user-tile-content.active {
+  font-weight: 900;
+  font-size: 15px;
+  color: white;
+}
+
+.user-tile-label {
+  width: 5%;
+}
+
+.user-tile-label div {
+  background-color: rgb(189, 56, 85) !important;
+  border-radius: 50% !important;
+  color: white !important;
+  padding: 5px 10px !important;
+}
+
+.user-tile-label div.padded {
+  background-color: rgb(189, 56, 85) !important;
+  border-radius: 50% !important;
+  color: white !important;
+  padding: 8px 10px !important;
+}
+
+.add-conversation-container {
+  position: relative;
+  padding: 20px 20px 40px 20px !important;
+  margin: 0px 0px !important;
+  border-bottom: 2px solid rgb(255, 255, 255) !important;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-conversation-container:hover {
+  background-color: #121212;
+}
+
+.add-conversation-container span {
+  position: absolute;
+  left: 8px;
+}
+
+.add-conversation-container i {
+  position: absolute;
+  right: 8%;
+  top: 35%;
+}
